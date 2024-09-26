@@ -1,3 +1,7 @@
+**Command for the execuation
+ g++ -o main  main.cpp `pkg-config --cflags --libs opencv4`
+**
+
 Example of c calls to OpenCV's Kalman filter.
  Tracking of rotating point.
  Point moves in a circle and is characterized by a 1D state.
